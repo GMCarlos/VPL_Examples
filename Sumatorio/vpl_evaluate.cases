@@ -1,0 +1,20 @@
+case=Sumatorio 1
+input = 1
+output = 10
+
+case=Sumatorio 2
+input = 2
+output = 20
+
+case=Sumatorio 3
+input = 3
+output = 30
+
+
+case=Sumatorio 4
+input = 4
+output = 40
+
+case=Sumatorio 5
+input = 5
+output = 50
