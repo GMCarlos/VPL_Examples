@@ -1,0 +1,1 @@
+SELECT * FROM personajes WHERE clase=2;
