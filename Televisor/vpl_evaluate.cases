@@ -1,0 +1,38 @@
+Case = test 1
+Grade reduction = 30%
+Input = LG
+321
+6
+15
+0
+Output = LG 321 - - -
+El televisor está apagado y se va a encender ...
+El televisor se ha encendido correctamente
+El constructor parametrizado funciona correctamente.
+Sony Bravia 1 20 1
+
+Case = test 2
+Grade reduction = 35%
+Input = LG
+321
+6
+15
+1
+Output = LG 321 7 15 1
+El televisor está encendido y se va a apagar ...
+El televisor se ha apagado correctamente
+El constructor parametrizado funciona correctamente.
+Sony Bravia 1 20 1
+
+Case = test 3
+Grade reduction = 35%
+Input = LG
+321
+6
+1
+1
+Output = LG 321 7 4 1
+El televisor está encendido y se va a apagar ...
+El televisor se ha apagado correctamente
+El constructor parametrizado funciona correctamente.
+Sony Bravia 1 20 1
