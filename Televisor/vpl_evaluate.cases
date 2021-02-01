@@ -12,13 +12,13 @@ Se ha apagado el televisor correctamente.
 
 Case = Prueba 1 con la marca
 Grade reduction = 5%
-Input = Sony
+Input =Sony
 Bravia
 6
 15
 0
 2
-Output = La marca es correcta.
+Output =La marca es correcta.
 Se ha apagado el televisor correctamente.
 
 Case = Prueba 2 con la marca
@@ -84,7 +84,7 @@ Sony Bravia 5 8 1
 Se ha apagado el televisor correctamente.
 
 Case = Pruebas con el constructor parametrizado
-Grade reduction = 10%
+Grade reduction = 40%
 Input = Sony
 Bravia
 1
