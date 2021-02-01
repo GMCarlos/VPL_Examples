@@ -83,9 +83,13 @@ int main() {
 	Televisor t2(marca1, modelo1, canal1, volumen1, estado1);
 	//Si está encendida
 	if(t2.getEstado()){
+		//Comprobamos la marca
 		if(t2.getMarca() == "Sony"){
+			//Comprobamos el modelo
 			if(t2.getModelo() == "Bravia"){
+				//Comprobamos el canal
 				if(t2.getCanal() == 1){
+					//Comprobamos el volumen
 					if(t2.getVolumen()==20){
 						cout << "El constructor parametrizado funciona correctamente."<<endl;
 						cout << t2.getMarca() << " " << t2.getModelo() << " " << t2.getCanal()
@@ -109,6 +113,5 @@ int main() {
 
 	return 0;
 }
-
 
 
