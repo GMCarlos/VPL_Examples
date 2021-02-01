@@ -23,7 +23,7 @@ class Televisor  {
 
 public:
 	Televisor();
-    Televisor(string marca, string modelo, int canal, int volumen, bool estado);
+	Televisor(string marca, string modelo, int canal, int volumen, bool estado);
 	~Televisor();
 	void setMarca( string marca);
 	void setModelo( string modelo);
@@ -37,7 +37,7 @@ public:
 	int getVolumen() ;
 	int getEstado() ;
 
-	bool subirVolumne();
+	bool subirVolumen();
 	bool bajarVolumen();
 
 	void cambioCanal(int canal);
@@ -46,6 +46,10 @@ public:
 
 	void apagarTelevisor();
 	void encenderTelevisor();
+
+
+
+
 
 
 
