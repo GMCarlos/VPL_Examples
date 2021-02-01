@@ -65,7 +65,7 @@ void Televisor::setVolumen(int volumen) {
 }
 
 
-bool Televisor::subirVolumne() {
+bool Televisor::subirVolumen() {
 	bool sePuede = false;
 	if (volumen < MAXVOLUMEN){
 		volumen++;
