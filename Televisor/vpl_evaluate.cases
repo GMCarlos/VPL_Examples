@@ -1,38 +1,96 @@
-Case = test 1
-Grade reduction = 30%
-Input = LG
-321
+Case = Pruebas con el estado
+Grade reduction = 10%
+Input = Sony
+Bravia
 6
 15
 0
-Output = LG 321 - - -
-El televisor está apagado y se va a encender ...
+1
+Output = Sony Bravia - - -
 El televisor se ha encendido correctamente
-El constructor parametrizado funciona correctamente.
-Sony Bravia 1 20 1
+Se ha apagado el televisor correctamente.
 
-Case = test 2
-Grade reduction = 35%
-Input = LG
-321
+Case = Prueba 1 con la marca
+Grade reduction = 5%
+Input = Sony
+Bravia
 6
 15
-1
-Output = LG 321 7 15 1
-El televisor está encendido y se va a apagar ...
-El televisor se ha apagado correctamente
-El constructor parametrizado funciona correctamente.
-Sony Bravia 1 20 1
+0
+2
+Output = La marca es correcta.
+Se ha apagado el televisor correctamente.
 
-Case = test 3
-Grade reduction = 35%
-Input = LG
-321
+Case = Prueba 2 con la marca
+Grade reduction = 5%
+Input = Huawei
+KD
 6
+15
+0
+2
+Output = La marca es incorrecta.
+Se ha apagado el televisor correctamente.
+
+Case = Pruebas con el modelo
+Grade reduction = 10%
+Input = Sony
+Bravia
+6
+15
+0
+3
+Output = El modelo es correcto.
+Se ha apagado el televisor correctamente.
+
+
+Case = Pruebas con el volumen
+Grade reduction = 10%
+Input = Sony
+Bravia
 1
+5
 1
-Output = LG 321 7 4 1
-El televisor está encendido y se va a apagar ...
-El televisor se ha apagado correctamente
-El constructor parametrizado funciona correctamente.
-Sony Bravia 1 20 1
+4
+Output = Sony Bravia 1 5 1
+Después de subir el volumen 3 veces ...
+Sony Bravia 1 8 1
+Se ha apagado el televisor correctamente.
+
+Case = Pruebas con el canal
+Grade reduction = 10%
+Input = Sony
+Bravia
+1
+8
+1
+5
+Output = Sony Bravia 1 8 1
+Después de subir dos veces el canal ...
+Sony Bravia 3 8 1
+Se ha apagado el televisor correctamente.
+
+Case = Pruebas con el cambio de canal
+Grade reduction = 10%
+Input = Sony
+Bravia
+1
+8
+1
+6
+Output = Sony Bravia 1 8 1
+Se ha cambiado al canal 5...
+Sony Bravia 5 8 1
+Se ha apagado el televisor correctamente.
+
+Case = Pruebas con el constructor parametrizado
+Grade reduction = 10%
+Input = Sony
+Bravia
+1
+8
+1
+7
+Output = El constructor parametrizado funciona correctamente.
+LG OLED65BX6LA 1 15 1
+Se ha apagado el televisor correctamente.
