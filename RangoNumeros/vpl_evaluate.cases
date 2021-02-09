@@ -1,3 +1,14 @@
-Test = Prueba 1 -->Resultado comprendido entre 4 y 6 (ambos incluidos)
-input = 4
-output = /(4).?[0123456789]+|(5).?[0123456789]+|6.0/
+case = Prueba 1 -->Resultado comprendido entre 0.0 y 2.0 (ambos incluidos)
+Fail message = Error al ejecutar el valor 2.0
+input =2.0
+output = /(0.)[0123456789]+|(1.)[0123456789]+|2.0/
+
+case = Prueba 2 -->Resultado comprendido entre 0.0 y 4.0 (ambos incluidos)
+Fail message = Error al ejecutar el valor 4.0
+input =4.0
+output = /(0.)[0123456789]+|(1.)[0123456789]+|(2.)[0123456789]+|(3.)[0123456789]+|4.0/
+
+case = Prueba 3 -->Resultado comprendido entre 0.0 y 4.5 (ambos incluidos)
+Fail message = Error al ejecutar el valor 4.5
+input =4.5
+output = /(0.)[0123456789]+|(1.)[0123456789]+|(2.)[0123456789]+|(3.)[0123456789]+|(4.)[01234]+[0123456789]*|(4.5)/
